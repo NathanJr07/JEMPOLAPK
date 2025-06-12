@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FAFAFA"
+    android:id="@+id/module2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Judul -->
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mindset dan Mentalitas Pengusaha"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:paddingBottom="16dp" />
+
+        <!-- Gambar Ilustrasi (Opsional) -->
+        <ImageView
+            android:id="@+id/imageIllustration"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/modul2"
+            android:scaleType="centerCrop"
+            android:contentDescription="Ilustrasi Mindset Pengusaha"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Isi Konten -->
+        <TextView
+            android:id="@+id/contentText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#424242"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:text="Menjadi pengusaha tidak hanya soal memiliki ide bisnis, tapi juga memiliki mindset dan mentalitas yang tepat. Mindset pengusaha mencerminkan cara berpikir yang berorientasi pada solusi, pertumbuhan, dan ketahanan. Mentalitas mereka biasanya terbentuk dari kebiasaan positif, seperti disiplin, bertanggung jawab, dan tidak mudah menyerah.\n\nPengusaha sukses percaya bahwa kegagalan adalah bagian dari proses belajar. Mereka melihat kesalahan sebagai data, bukan sebagai alasan untuk berhenti. Mereka terbiasa mengambil keputusan secara mandiri, cepat beradaptasi, dan mencari peluang dalam situasi apa pun. Mentalitas seperti ini membuat mereka tahan banting dalam menghadapi tekanan dan ketidakpastian yang sering terjadi dalam dunia usaha.\n\nUntuk itu, calon pengusaha perlu membangun pola pikir yang sehat sejak awal. Ini termasuk rasa percaya diri, kemampuan mengambil risiko terukur, serta motivasi yang datang dari dalam (intrinsik), bukan hanya dari dorongan luar seperti uang atau status sosial." />
+
+    </LinearLayout>
+</ScrollView>

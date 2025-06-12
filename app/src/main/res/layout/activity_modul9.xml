@@ -1,0 +1,103 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    android:id="@+id/module9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Judul -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Identifikasi Kebutuhan dan Masalah Konsumen"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#1F2937"
+            android:fontFamily="@font/poppinsbold"
+            android:paddingBottom="16dp" />
+
+        <!-- Paragraf Utama -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Produk yang baik adalah produk yang menyelesaikan masalah konsumen. Oleh karena itu, mengidentifikasi kebutuhan dan masalah konsumen merupakan tahap krusial sebelum mengembangkan produk atau layanan."
+            android:textSize="16sp"
+            android:textColor="#374151"
+            android:lineSpacingExtra="6dp"
+            android:fontFamily="@font/poppinsregular"
+            android:paddingBottom="12dp" />
+
+        <!-- CardView untuk Metode Identifikasi -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="12dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#FFF7ED">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Metode Identifikasi:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#C2410C"
+                    android:fontFamily="@font/poppinsbold"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Observasi langsung\n• Wawancara mendalam\n• Survei online atau offline\n• Diskusi kelompok (FGD)"
+                    android:textSize="16sp"
+                    android:textColor="#1E293B"
+                    android:fontFamily="@font/poppinsregular"
+                    android:lineSpacingExtra="6dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Pertanyaan Kunci -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pertanyaan Kunci:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1D4ED8"
+            android:fontFamily="@font/poppinsbold"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Apa keluhan konsumen terhadap produk serupa?\n• Apa yang belum terpenuhi dari kebutuhan mereka?\n• Bagaimana gaya hidup, kebiasaan, atau nilai yang mereka pegang?"
+            android:textSize="16sp"
+            android:textColor="#1E293B"
+            android:fontFamily="@font/poppinsregular"
+            android:lineSpacingExtra="6dp"
+            android:paddingBottom="16dp" />
+
+        <!-- Kesimpulan -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dengan memahami masalah nyata konsumen, bisnis dapat merancang solusi yang relevan dan meningkatkan loyalitas pelanggan karena merasa diperhatikan."
+            android:textSize="16sp"
+            android:textColor="#374151"
+            android:fontFamily="@font/poppinsregular"
+            android:lineSpacingExtra="6dp" />
+    </LinearLayout>
+</ScrollView>

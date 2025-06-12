@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    android:id="@+id/module24">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Judul -->
+        <TextView
+            android:id="@+id/titleHarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Strategi Harga dan Penghitungan Laba"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <!-- Paragraf Pembuka -->
+        <TextView
+            android:id="@+id/introHarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menentukan harga jual bukan hanya soal menambahkan keuntungan di atas harga pokok. Strategi penetapan harga harus mempertimbangkan beberapa faktor, antara lain:"
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp" />
+
+        <!-- Daftar Faktor -->
+        <TextView
+            android:id="@+id/factorHarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Biaya produksi (bahan baku, tenaga kerja, operasional)\n• Harga pasar dan kompetitor\n• Nilai tambah produk (unik, kualitas, layanan)\n• Target pasar dan daya beli konsumen"
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp" />
+
+        <!-- Penjelasan Laba -->
+        <TextView
+            android:id="@+id/penjelasanLaba"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Setelah menentukan harga jual, penting juga menghitung laba kotor (selisih dari penjualan dikurangi biaya produksi langsung) dan laba bersih (keuntungan setelah semua biaya dikurangi, termasuk operasional, pemasaran, dll)."
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp" />
+
+        <!-- Penutup -->
+        <TextView
+            android:id="@+id/penutupHarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Strategi harga yang tepat tidak hanya memastikan bisnis untung, tapi juga bersaing dan tetap menarik bagi konsumen."
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:lineSpacingExtra="4dp" />
+
+    </LinearLayout>
+</ScrollView>

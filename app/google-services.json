@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "121274299428",
+    "project_id": "pam-kelompok-9ab46",
+    "storage_bucket": "pam-kelompok-9ab46.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121274299428:android:250caf657ebe661e2694b1",
+        "android_client_info": {
+          "package_name": "com.jempol.pamkelompok"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaW61lLjF1RnvfmKfkV6AkwJtHaYwcnGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    android:id="@+id/module25">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Judul -->
+        <TextView
+            android:id="@+id/titlePendanaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Persiapan untuk Pendanaan (Investor, Pinjaman, dll.)"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <!-- Paragraf pembuka -->
+        <TextView
+            android:id="@+id/introPendanaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seiring berkembangnya usaha, mungkin akan muncul kebutuhan untuk menambah modal, misalnya untuk ekspansi atau menambah alat produksi. Untuk itu, pelaku usaha perlu mempersiapkan diri agar layak mendapatkan pendanaan dari luar, seperti investor atau lembaga keuangan."
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp" />
+
+        <!-- Subjudul -->
+        <TextView
+            android:id="@+id/subjudulPendanaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Beberapa hal yang perlu disiapkan:"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:paddingBottom="8dp" />
+
+        <!-- Daftar poin -->
+        <TextView
+            android:id="@+id/listPendanaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Catatan keuangan yang rapi dan jelas\n• Business plan yang menggambarkan arah dan potensi usaha\n• Proyeksi keuangan ke depan (perkiraan omzet, laba, dan waktu balik modal)\n• Legalitas usaha (izin usaha, NPWP, dll.)"
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp" />
+
+        <!-- Penutup -->
+        <TextView
+            android:id="@+id/penutupPendanaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Investor atau pemberi pinjaman biasanya akan melihat apakah usaha tersebut layak, menguntungkan, dan dijalankan secara profesional. Jadi, kesiapan dokumen dan kemampuan menjelaskan bisnis secara meyakinkan sangat penting."
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:lineSpacingExtra="4dp" />
+
+    </LinearLayout>
+</ScrollView>

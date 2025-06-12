@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:paddingBottom="50dp"> <!-- Tambahan padding bawah -->
+
+    <!-- Gambar Header -->
+    <ImageView
+        android:id="@+id/headerImage"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hari11" />
+
+    <!-- ScrollView dengan konten CardView -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_marginBottom="96dp"> <!-- Jaga jarak dari tombol selesai -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="240dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="32dp"
+                app:cardElevation="12dp"
+                app:cardBackgroundColor="@android:color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Header Card -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#50C2C9"
+                        android:padding="24dp">
+
+                        <TextView
+                            android:id="@+id/tvChallengeHeader"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:lineSpacingExtra="4dp"
+                            android:text="📢 Tantangan Promosi – Hari 11\n\nTema Hari Ini: “Story Game”\n\nTujuan Tantangan:\nMenarik perhatian audiens dengan permainan ringan yang interaktif dan menyenangkan."
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <!-- Divider -->
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#DDDDDD" />
+
+                    <!-- Konten Card -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="24dp">
+
+                        <TextView
+                            android:id="@+id/tvChallengeSteps"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="📌Langkah-langkah:\n1. Buat story berisi permainan ringan seputar produk atau brand kamu.\n2. Ide permainan yang bisa digunakan:\n- Tebak-tebakan produk\n- Cari perbedaan dari dua gambar produk\n- Pilih favorit (This or That)\n- Bingo produk\n\n🎮 Format Konten:\n- Gunakan stiker interaktif di Instagram Story (Poll, Quiz, Slider)\n- Bisa juga berupa desain visual menarik yang mengajak audiens berpartisipasi\n\n✨ Tujuan:\nMeningkatkan engagement dan membuat audiens merasa lebih dekat dengan brand kamu secara fun dan santai!"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:lineSpacingExtra="4dp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Tombol Selesai (Tetap di bawah layar) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSelesai"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Selesai"
+            android:textAllCaps="false"
+            android:backgroundTint="#50C2C9"
+            android:textColor="@android:color/white"
+            android:elevation="6dp"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btnBatal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Batal"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/red"
+            android:textColor="@android:color/white"
+            android:elevation="6dp" />
+    </LinearLayout>
+
+</FrameLayout>

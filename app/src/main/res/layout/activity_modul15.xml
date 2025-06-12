@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    android:id="@+id/module15">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Proyeksi Keuangan Dasar (Modal, BEP, Keuntungan)"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#2E3A59"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Setiap bisnis memerlukan perencanaan keuangan yang realistis. Dalam tahap awal, proyeksi keuangan fokus pada beberapa aspek dasar: kebutuhan modal awal, estimasi biaya bulanan, titik impas (Break Even Point/BEP), dan proyeksi keuntungan.\n\nModal awal mencakup semua biaya yang dibutuhkan sebelum usaha berjalan, seperti pembelian alat, stok awal, renovasi tempat, dan biaya pemasaran awal. Setelah itu, disusun proyeksi biaya operasional per bulan, termasuk gaji, bahan baku, transportasi, dan biaya lain-lain.\n\nBreak Even Point menunjukkan kapan usaha mulai balik modal, yaitu saat pendapatan sudah bisa menutup seluruh biaya yang dikeluarkan. Ini menjadi indikator awal apakah usaha tergolong layak atau berisiko tinggi. Setelah itu, dihitung potensi keuntungan per bulan atau per tahun berdasarkan penjualan yang ditargetkan.\n\nDengan menyusun proyeksi keuangan dasar, pelaku usaha bisa mengukur seberapa realistis rencana bisnis mereka, berapa lama bisa bertahan tanpa keuntungan, dan kapan usaha mulai menghasilkan profit."
+            android:textSize="16sp"
+            android:textColor="#4A4A4A"
+            android:lineSpacingExtra="6dp" />
+
+    </LinearLayout>
+</ScrollView>

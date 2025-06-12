@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    android:id="@+id/module8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Judul -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Analisis SWOT dan PESTEL"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#1F2937"
+            android:fontFamily="@font/poppinsbold"
+            android:paddingBottom="20dp" />
+
+        <!-- Deskripsi Awal -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Analisis merupakan alat penting dalam perencanaan bisnis. SWOT dan PESTEL membantu pengusaha memahami kondisi internal dan eksternal yang memengaruhi usaha."
+            android:textSize="16sp"
+            android:textColor="#374151"
+            android:lineSpacingExtra="6dp"
+            android:fontFamily="@font/poppinsregular"
+            android:paddingBottom="16dp" />
+
+        <!-- SWOT -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:backgroundTint="#EFF6FF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SWOT Analysis"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#1D4ED8"
+                    android:fontFamily="@font/poppinsbold"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Strengths: kekuatan internal seperti produk unik.\n• Weaknesses: kelemahan internal seperti keterbatasan SDM.\n• Opportunities: peluang eksternal seperti tren pasar.\n• Threats: ancaman eksternal seperti kompetitor besar."
+                    android:textSize="16sp"
+                    android:textColor="#1E293B"
+                    android:fontFamily="@font/poppinsregular"
+                    android:lineSpacingExtra="6dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- PESTEL -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:backgroundTint="#F0FDF4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PESTEL Analysis"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#15803D"
+                    android:fontFamily="@font/poppinsbold"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Political: faktor politik dan kebijakan.\n• Economic: kondisi ekonomi nasional/global.\n• Social: budaya, kebiasaan, nilai masyarakat.\n• Technological: inovasi dan kemajuan teknologi.\n• Environmental: kesadaran lingkungan.\n• Legal: hukum dan regulasi bisnis."
+                    android:textSize="16sp"
+                    android:textColor="#1E293B"
+                    android:fontFamily="@font/poppinsregular"
+                    android:lineSpacingExtra="6dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Kesimpulan -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Analisis SWOT dan PESTEL membantu pengusaha dalam pengambilan keputusan strategis, evaluasi kondisi pasar, dan kesiapan menghadapi tantangan bisnis."
+            android:textSize="16sp"
+            android:textColor="#374151"
+            android:lineSpacingExtra="6dp"
+            android:fontFamily="@font/poppinsregular"
+            android:paddingTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

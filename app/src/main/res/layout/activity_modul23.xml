@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    android:id="@+id/module23">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Judul -->
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Memisahkan Keuangan Pribadi dan Bisnis"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <!-- Paragraf pembuka -->
+        <TextView
+            android:id="@+id/introText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salah satu kesalahan umum pengusaha pemula adalah mencampur uang bisnis dengan uang pribadi. Hal ini membuat pengelolaan keuangan menjadi tidak jelas, sulit mengevaluasi kinerja usaha, dan berpotensi mengacaukan keuangan pribadi."
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp" />
+
+        <!-- Subjudul solusi -->
+        <TextView
+            android:id="@+id/solutionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Solusi sederhananya adalah:"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:paddingBottom="8dp" />
+
+        <!-- Daftar solusi -->
+        <TextView
+            android:id="@+id/solutionList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Membuat rekening terpisah khusus untuk bisnis.\n• Menentukan gaji untuk diri sendiri sebagai pemilik, agar tidak sembarangan mengambil uang dari kas usaha.\n• Disiplin dalam mencatat dan menyimpan bukti transaksi."
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp" />
+
+        <!-- Penutup -->
+        <TextView
+            android:id="@+id/conclusionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dengan memisahkan keduanya, pelaku usaha bisa lebih mudah dalam mengontrol pengeluaran, merencanakan pertumbuhan, dan siap jika harus berurusan dengan investor atau pajak."
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>

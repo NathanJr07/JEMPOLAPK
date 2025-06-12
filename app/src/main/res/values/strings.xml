@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Jempol</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyBI92Hj1CpzoNUohfQRNs7dZjeNjMptNEQ
+    </string>
+    <string name="title_activity_tantangan">tantangan</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_challenge">challenge</string>
+</resources>

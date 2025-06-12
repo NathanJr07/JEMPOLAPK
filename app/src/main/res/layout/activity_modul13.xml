@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:id="@+id/module13">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rencana Produk atau Layanan"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#2E3A59"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/contentTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Setiap bisnis dimulai dari apa yang ditawarkannya kepada pasar, yaitu produk atau layanan. Pada bagian ini, pelaku usaha harus bisa mendeskripsikan dengan jelas apa produk atau layanan utama mereka, keunggulannya dibanding pesaing, dan bagaimana produk itu memenuhi kebutuhan atau menyelesaikan masalah yang dihadapi konsumen.\n\nMisalnya, sebuah bisnis menawarkan sabun organik. Maka rencana produk perlu menjelaskan bahan baku yang digunakan, keunikan dari sabun tersebut (misalnya bebas kimia sintetis, cocok untuk kulit sensitif), serta bagaimana proses produksinya.\n\nJika produk bersifat inovatif, penjelasan ini juga harus menunjukkan nilai tambahnya di mata konsumen. Penting juga untuk menjelaskan apakah produk akan dikembangkan secara bertahap, seperti menambah varian rasa, warna, atau layanan tambahan.\n\nDengan rencana produk yang matang, bisnis tidak hanya menunjukkan bahwa mereka siap memproduksi, tetapi juga siap berinovasi sesuai kebutuhan pasar."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#4A4A4A" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="16dp"
+    android:id="@+id/module11">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Judul -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pengertian dan Manfaat Business Plan"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#1F2937"
+            android:paddingBottom="16dp"
+            android:fontFamily="@font/poppinsbold" />
+
+        <!-- Card Konten -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="12dp"
+            android:backgroundTint="#F3F4F6">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <!-- Subjudul -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mengapa Business Plan Itu Penting?"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#111827"
+                    android:paddingBottom="10dp"
+                    android:fontFamily="@font/poppinsmedium" />
+
+                <!-- Isi -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Business plan atau rencana bisnis adalah sebuah dokumen penting yang menggambarkan arah, strategi, dan langkah-langkah konkret dalam menjalankan sebuah usaha. Rencana ini mencakup berbagai aspek, mulai dari deskripsi produk atau layanan, target pasar, strategi pemasaran, hingga proyeksi keuangan. Fungsinya bukan hanya sebagai alat bantu pemilik usaha dalam menjalankan bisnis, tetapi juga menjadi acuan penting bagi pihak luar seperti investor, mitra bisnis, dan lembaga keuangan untuk memahami potensi usaha yang sedang atau akan dijalankan. Manfaat utama dari business plan adalah sebagai pemandu arah. Dengan memiliki rencana yang jelas, pengusaha tidak berjalan secara asal, melainkan berdasarkan pertimbangan yang terstruktur. Selain itu, business plan membantu memperkirakan kebutuhan modal, mengidentifikasi risiko, dan menyusun strategi mitigasi. Ketika dibutuhkan pendanaan, rencana bisnis yang baik akan meningkatkan kepercayaan investor atau pemberi pinjaman. Secara keseluruhan, business plan membantu usaha berjalan lebih fokus, efisien, dan terukur."
+                    android:textSize="16sp"
+                    android:textColor="#374151"
+                    android:lineSpacingExtra="6dp"
+                    android:fontFamily="@font/poppinsregular" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

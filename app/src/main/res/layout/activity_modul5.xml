@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    android:id="@+id/module5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Judul -->
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Etika dan Tanggung Jawab Sosial Wirausaha"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#1F2937"
+            android:fontFamily="@font/poppinsbold"
+            android:gravity="center"
+            android:paddingBottom="20dp" />
+
+        <!-- CardView Konten -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:backgroundTint="#F3F4F6"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/isi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Menjadi wirausahawan tidak hanya soal mencari keuntungan, tetapi juga tentang menjalankan bisnis dengan etika dan tanggung jawab sosial. Etika bisnis mencakup prinsip moral seperti kejujuran, transparansi, keadilan, dan menghormati hak konsumen maupun karyawan.\n\nPengusaha yang menjalankan bisnisnya dengan etika akan lebih dipercaya dan bisa membangun reputasi jangka panjang. Selain itu, wirausahawan juga memiliki tanggung jawab sosial terhadap lingkungan dan komunitas sekitarnya. Hal ini bisa diwujudkan dalam berbagai bentuk, seperti menggunakan bahan ramah lingkungan, memperlakukan karyawan secara adil, atau berkontribusi pada kegiatan sosial di masyarakat.\n\nTanggung jawab sosial bukan beban, tapi justru bisa menjadi kekuatan bisnis. Konsumen saat ini semakin peduli pada nilai-nilai yang dipegang oleh bisnis yang mereka dukung. Usaha yang punya komitmen terhadap sosial dan lingkungan seringkali mendapatkan loyalitas pelanggan yang lebih tinggi."
+                    android:textSize="16sp"
+                    android:textColor="#374151"
+                    android:lineSpacingExtra="6dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    android:id="@+id/module19">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Judul -->
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Membangun Brand Awareness dan Positioning"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <!-- Penjelasan -->
+        <TextView
+            android:id="@+id/descText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Brand awareness adalah sejauh mana konsumen mengenal dan mengingat suatu merek. Sementara positioning adalah persepsi atau citra yang ingin dibentuk dalam benak konsumen tentang bisnis kita.\n\nContohnya, ketika mendengar kata “murah dan cepat”, konsumen mungkin langsung teringat pada merek tertentu. Itu artinya merek tersebut telah sukses membangun positioning yang kuat."
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp" />
+
+        <!-- Subjudul -->
+        <TextView
+            android:id="@+id/stepsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Langkah-langkah membangun brand awareness dan positioning:"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:paddingBottom="8dp" />
+
+        <!-- Langkah-langkah -->
+        <TextView
+            android:id="@+id/stepsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Menentukan identitas merek (nama, logo, warna, dan nada komunikasi)\n• Menyampaikan pesan merek secara konsisten di semua media\n• Menonjolkan keunikan atau nilai jual utama (USP – Unique Selling Proposition)\n• Membangun hubungan emosional dengan konsumen"
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp" />
+
+        <!-- Penutup -->
+        <TextView
+            android:id="@+id/closingText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Brand yang kuat akan lebih mudah diingat, dipercaya, dan dipilih, bahkan dalam pasar yang kompetitif."
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>

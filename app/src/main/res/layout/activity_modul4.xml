@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white"
+    android:id="@+id/module4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Judul -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenis-Jenis Usaha"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="#1F2937"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <!-- Deskripsi Pendahuluan -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenis usaha dapat dibedakan berdasarkan apa yang ditawarkan kepada pasar. Secara umum, ada tiga kategori utama: usaha produk, jasa, dan digital. Masing-masing memiliki karakteristik dan kebutuhan yang berbeda."
+            android:textSize="16sp"
+            android:textColor="#374151"
+            android:lineSpacingExtra="6dp"
+            android:paddingBottom="16dp" />
+
+        <!-- CardView: Usaha Produk -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="12dp"
+            android:backgroundTint="@color/primarycolor">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Usaha Produk"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis usaha ini menghasilkan barang fisik yang bisa dijual, seperti makanan, pakaian, kerajinan tangan, atau peralatan rumah tangga. Tantangannya terletak pada produksi, stok barang, dan distribusi."
+                    android:textSize="16sp"
+                    android:textColor="#374151"
+                    android:lineSpacingExtra="6dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- CardView: Usaha Jasa -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="12dp"
+            android:backgroundTint="@color/primarycolor">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Usaha Jasa"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fokus pada pelayanan, bukan barang fisik. Contohnya termasuk jasa laundry, potong rambut, desain grafis, atau les privat. Modal untuk usaha jasa biasanya lebih rendah, namun sangat bergantung pada keterampilan dan kualitas layanan."
+                    android:textSize="16sp"
+                    android:textColor="#374151"
+                    android:lineSpacingExtra="6dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- CardView: Usaha Digital -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="12dp"
+            android:backgroundTint="@color/primarycolor">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Usaha Digital"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mengandalkan teknologi dan internet, seperti bisnis e-commerce, content creator, aplikasi, atau layanan digital marketing. Jenis usaha ini berkembang pesat karena biaya operasionalnya lebih rendah dan jangkauan pasarnya sangat luas."
+                    android:textSize="16sp"
+                    android:textColor="#374151"
+                    android:lineSpacingExtra="6dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Penutup -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ada juga bentuk kombinasi dari ketiganya, seperti menjual produk fisik melalui platform digital, atau menyertai jasa dengan produk penunjang. Pemilihan jenis usaha sebaiknya disesuaikan dengan kemampuan, minat, dan kebutuhan pasar."
+            android:textSize="16sp"
+            android:textColor="#374151"
+            android:lineSpacingExtra="6dp"
+            android:paddingBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>

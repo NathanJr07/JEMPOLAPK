@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    android:id="@+id/module16">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleMarketing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pengantar Marketing untuk Pemula"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#1A237E"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/descMarketing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marketing atau pemasaran adalah proses mengenalkan dan menawarkan produk atau layanan kepada konsumen dengan tujuan menciptakan transaksi yang menguntungkan. Bagi pengusaha pemula, marketing bukan hanya soal menjual, tapi soal membangun hubungan dengan konsumen dan menciptakan nilai.\n\nDalam praktiknya, marketing mencakup berbagai aktivitas mulai dari memahami kebutuhan pasar, menyusun strategi komunikasi, menentukan harga, hingga menyalurkan produk ke pelanggan. Tujuan utamanya adalah memastikan produk yang tepat sampai ke orang yang tepat dengan cara yang tepat.\n\nPemahaman dasar marketing membantu pemula untuk lebih fokus pada pelanggan, bukan hanya pada produk, dan menyusun strategi yang lebih efektif."
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:lineSpacingExtra="6dp" />
+    </LinearLayout>
+</ScrollView>

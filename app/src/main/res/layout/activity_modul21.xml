@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    android:id="@+id/module21">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Judul -->
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pengelolaan Modal Awal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <!-- Paragraf utama -->
+        <TextView
+            android:id="@+id/contentText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modal awal adalah dana yang digunakan untuk memulai sebuah usaha. Modal ini bisa berasal dari tabungan pribadi, pinjaman, atau hasil patungan dengan rekan. Mengelola modal awal secara bijak sangat penting karena tahap awal usaha biasanya penuh risiko dan membutuhkan efisiensi.\n\nPengusaha perlu menyusun rencana penggunaan modal yang jelas, seperti untuk membeli bahan baku, peralatan, sewa tempat, biaya pemasaran awal, dan operasional minimal tiga bulan pertama.\n\nKesalahan umum adalah langsung menghabiskan modal untuk hal-hal yang belum mendesak, seperti dekorasi mewah atau stok berlebihan. Pengelolaan yang baik adalah dengan memprioritaskan kebutuhan inti terlebih dahulu dan menyisakan dana cadangan."
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp" />
+
+        <!-- Tips tambahan -->
+        <TextView
+            android:id="@+id/tipsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tips Pengelolaan Modal:"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tipsList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Susun rencana anggaran terperinci\n• Prioritaskan pengeluaran penting\n• Hindari pemborosan untuk hal yang belum mendesak\n• Sisihkan dana darurat\n• Evaluasi penggunaan modal secara rutin"
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp" />
+    </LinearLayout>
+</ScrollView>

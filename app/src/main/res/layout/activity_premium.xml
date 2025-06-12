@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primarycolor"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bergabung dalam Premium dan dapatkan kelebihannya!"
+        android:textSize="35sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppinssemibold"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp"
+        android:paddingTop="70dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✔ Akses Tantangan Hingga Hari ke-40"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="@color/white"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✔ Materi Eksklusif dan Mendalam"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="@color/white"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✔ Webinar Spesial dan Live Mentoring"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="@color/white"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✔ Template dan Tools Bisnis Lengkap"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="@color/white"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✔ Komunitas Eksklusif dan Networking"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="@color/white"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✔ Fitur AI dan Rekomendasi Bisnis"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="@color/white"
+            android:textSize="17sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*Menyetujui syarat dan ketentuan pada aplikasi."
+        android:fontFamily="@font/poppinsregular"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:paddingTop="8dp" />
+
+    <Button
+        android:id="@+id/premiumtombol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PREMIUM"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/primarycolor"
+        android:layout_marginTop="70dp"/>
+
+</LinearLayout>

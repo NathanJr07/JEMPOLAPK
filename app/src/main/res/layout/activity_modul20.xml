@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    android:id="@+id/module20">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Judul -->
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Membuat Konten yang Menjual"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <!-- Paragraf pembuka -->
+        <TextView
+            android:id="@+id/openingText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Konten adalah jembatan antara produk dan konsumen. Konten yang baik tidak hanya informatif, tapi juga mampu menarik perhatian, membangkitkan minat, dan mendorong aksi pembelian."
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp" />
+
+        <!-- Subjudul -->
+        <TextView
+            android:id="@+id/typesTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenis konten yang efektif untuk pemasaran antara lain:"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:paddingBottom="8dp" />
+
+        <!-- Daftar jenis konten -->
+        <TextView
+            android:id="@+id/typesList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Foto atau video produk berkualitas\n• Testimoni atau review pelanggan\n• Storytelling tentang proses produksi atau latar belakang usaha\n• Konten edukatif yang relevan dengan produk\n• Penawaran menarik (diskon, bonus, promo terbatas)"
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp" />
+
+        <!-- Tips membuat konten -->
+        <TextView
+            android:id="@+id/tipsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kunci membuat konten yang menjual adalah memahami siapa target audiensnya, menyampaikan pesan dengan jelas dan singkat, serta menggunakan visual yang menarik. Konsistensi dan kreativitas juga sangat berpengaruh dalam membangun citra dan menjaga minat konsumen."
+            android:textSize="16sp"
+            android:textColor="#424242"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>

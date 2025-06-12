@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    android:id="@+id/module14">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rencana Operasional dan Sumber Daya"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#2E3A59"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rencana operasional menjelaskan bagaimana bisnis akan dijalankan secara nyata. Mulai dari lokasi usaha, alur produksi, distribusi produk, hingga siapa saja yang terlibat di dalamnya. Jika bisnis berskala kecil, rencana ini tetap penting agar kegiatan operasional tidak berjalan secara acak, tetapi sistematis dan efisien.\n\nSelain itu, rencana ini mencakup kebutuhan sumber daya manusia, peralatan, teknologi, dan logistik yang dibutuhkan untuk menjalankan usaha. Misalnya, bisnis kopi rumahan mungkin membutuhkan satu barista, mesin kopi, bahan baku seperti biji kopi dan susu, serta platform pemesanan online.\n\nHal penting lain yang dibahas adalah waktu operasional: kapan bisnis buka, kapan produksi dilakukan, dan bagaimana pengiriman dilakukan (jika ada). Dengan perencanaan ini, bisnis akan lebih siap dalam menghadapi tantangan operasional dan mampu menjaga konsistensi layanan kepada pelanggan."
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="#4A4A4A" />
+
+    </LinearLayout>
+</ScrollView>

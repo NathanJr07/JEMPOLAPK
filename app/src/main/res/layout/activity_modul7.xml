@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    android:id="@+id/module7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Judul -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Segmentasi, Targeting, dan Positioning (STP)"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="#1F2937"
+            android:paddingBottom="20dp"
+            android:gravity="center" />
+
+        <!-- CardView Utama -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#F9FAFB">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <!-- Deskripsi Umum -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="STP adalah pendekatan strategis yang digunakan untuk memahami pasar dan menentukan strategi pemasaran secara lebih terfokus. Ketiganya saling berkaitan dan membentuk dasar penting dalam perencanaan bisnis."
+                    android:textSize="16sp"
+                    android:textColor="#374151"
+                    android:fontFamily="@font/poppinsregular"
+                    android:lineSpacingExtra="6dp"
+                    android:paddingBottom="12dp" />
+
+                <!-- Segmentasi -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Segmentasi"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="#111827"
+                    android:paddingTop="6dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Proses membagi pasar yang luas menjadi kelompok-kelompok yang lebih kecil berdasarkan karakteristik tertentu, seperti usia, lokasi, pendapatan, gaya hidup, atau kebiasaan. Hal ini membantu pengusaha memahami bahwa tidak semua konsumen itu sama."
+                    android:textSize="16sp"
+                    android:textColor="#374151"
+                    android:fontFamily="@font/poppinsregular"
+                    android:lineSpacingExtra="6dp"
+                    android:paddingBottom="12dp" />
+
+                <!-- Targeting -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Targeting"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="#111827"
+                    android:paddingTop="6dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Langkah memilih satu atau beberapa segmen pasar yang paling potensial untuk dijadikan fokus utama. Di sinilah bisnis menentukan kepada siapa produk atau layanannya difokuskan."
+                    android:textSize="16sp"
+                    android:textColor="#374151"
+                    android:fontFamily="@font/poppinsregular"
+                    android:lineSpacingExtra="6dp"
+                    android:paddingBottom="12dp" />
+
+                <!-- Positioning -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Positioning"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="#111827"
+                    android:paddingTop="6dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cara bisnis menempatkan produk atau layanan di benak konsumen agar berbeda dan menarik dibanding kompetitor. Meliputi pesan, citra, atau nilai yang ingin dibangun agar produk memiliki tempat khusus di hati pelanggan."
+                    android:textSize="16sp"
+                    android:textColor="#374151"
+                    android:fontFamily="@font/poppinsregular"
+                    android:lineSpacingExtra="6dp"
+                    android:paddingBottom="10dp" />
+
+                <!-- Penutup -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dengan menerapkan STP, pengusaha bisa menghemat sumber daya dan memaksimalkan efektivitas pemasaran karena menyasar pasar yang benar-benar membutuhkan."
+                    android:textSize="16sp"
+                    android:textColor="#374151"
+                    android:fontFamily="@font/poppinsregular"
+                    android:lineSpacingExtra="6dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

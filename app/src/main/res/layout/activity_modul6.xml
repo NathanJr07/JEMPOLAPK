@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    android:id="@+id/module6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Judul -->
+        <TextView
+            android:id="@+id/tv_judul_riset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pengertian dan Tujuan Riset Pasar"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#1F2937"
+            android:fontFamily="@font/poppinsbold"
+            android:gravity="center"
+            android:paddingBottom="20dp" />
+
+        <!-- Konten dalam CardView -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#F9FAFB">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/tv_isi_riset"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Riset pasar adalah proses sistematis untuk mengumpulkan, menganalisis, dan menginterpretasikan informasi tentang pasar, konsumen, kompetitor, dan tren yang relevan. Tujuan utama riset pasar adalah membantu pengusaha memahami kebutuhan dan perilaku target pasar agar keputusan bisnis yang diambil lebih tepat sasaran.\n\nMelalui riset pasar, seorang wirausahawan bisa mengetahui apakah produk atau layanan yang ditawarkan benar-benar dibutuhkan, siapa yang akan membelinya, dan bagaimana cara terbaik untuk menjangkaunya. Selain itu, riset pasar juga membantu meminimalisasi risiko kegagalan, karena keputusan bisnis tidak hanya berdasarkan intuisi, tetapi data yang nyata. Dengan memahami pasar, usaha bisa menyesuaikan strategi produk, harga, promosi, hingga distribusi secara lebih efektif."
+                    android:textSize="16sp"
+                    android:textColor="#374151"
+                    android:lineSpacingExtra="6dp"
+                    android:fontFamily="@font/poppinsregular" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>
